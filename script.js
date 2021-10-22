@@ -7,6 +7,7 @@ function getName(){
    localStorage.setItem('uName', a);
   //automatically take the user to page two.html
   location.href = "two.html"
+  window.alert(a)
 }
 
 function getUser(){
