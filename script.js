@@ -1,5 +1,7 @@
+var name = document.getElementById('username').value
 function saveuser(){
-  var name = document.getElementById('username').value
   window.alert(name)
 }
-
+function callVar(){
+  window.alert(name)
+}
