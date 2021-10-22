@@ -10,6 +10,8 @@ function getName(){
 }
 
 function getUser(){
+  //gets the created item in function getName that has the value of the input field
   var b = localStorage.getItem('uName');
+  //gets the place holder paragraph and then gives it the value of hello and whatever the user inputted
   document.getElementById('placeholder').innerHTML = "Hello" + b
 }
