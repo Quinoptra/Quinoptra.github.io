@@ -7,10 +7,16 @@
     <link href="style.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
+    <script>
+    window.onload = function(){
+      var name = localStorage.getItem('username');
+      window.alert('Hello' + name);
+    }
+    </script>
     <script src="script.js"></script>
-    <p id="placeholder"></p>
+   <!-- <p id="placeholder"></p>
     <script>
       getUser();
-    </script>
+    </script> -->
   </body>
 </html>
