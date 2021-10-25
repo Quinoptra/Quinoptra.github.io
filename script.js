@@ -1,4 +1,4 @@
-var a;
+/* var a;
 function getName(){
   //get value from input field and save as "a"
    a = document.getElementById('username').value;
@@ -14,4 +14,10 @@ function getUser(){
   var b = localStorage.getItem('uName');
   //gets the place holder paragraph and then gives it the value of hello and whatever the user inputted
   document.getElementById('placeholder').innerHTML = "Hello" + b
+} */
+
+function saveName(){
+  var fieldValue = document.getElementById('textfield').value
+  localStorage.setItem("userName", fieldValue)
+  window.location.href = "two.html";
 }
